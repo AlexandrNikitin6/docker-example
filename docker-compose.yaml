@@ -44,7 +44,7 @@ services:
     network_mode: bridge
 
   jira:
-    image: atlassian/jira-software:8.14.1
+    image: atlassian/jira-software:8.2.1
     volumes:
       - "${PWD}/work/jira:/var/atlassian/application-data/jira"
     ports:
