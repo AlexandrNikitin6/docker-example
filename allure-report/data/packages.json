@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "io.github.eroshenkoam.GithubIssueTest",
+    "children" : [ {
+      "name" : "testIssue",
+      "uid" : "d0b46db61e147ae3",
+      "parentUid" : "6b8ac7eb840ac66d75348455d2158e73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617346966787,
+        "stop" : 1617346969601,
+        "duration" : 2814
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "io.github.eroshenkoam.GithubIssueTest"
+  } ]
+}

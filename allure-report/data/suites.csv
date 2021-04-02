@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Apr 02 12:02:46 YEKT 2021","Fri Apr 02 12:02:49 YEKT 2021","2814","","io.github.eroshenkoam.GithubIssueTest","","io.github.eroshenkoam.GithubIssueTest","testIssue","Открываем существующую Issue",""

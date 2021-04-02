@@ -1,0 +1,11 @@
+[ {
+  "uid" : "d0b46db61e147ae3",
+  "name" : "Открываем существующую Issue",
+  "time" : {
+    "start" : 1617346966787,
+    "stop" : 1617346969601,
+    "duration" : 2814
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

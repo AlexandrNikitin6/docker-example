@@ -31,26 +31,12 @@ public class GithubIssueTest {
     }
 
     @Test
-    @Issue("CO-9276")
+    @Issue("AE-1")
     @DisplayName("Открываем существующую Issue")
     public void testIssue() {
         step("Открываем главную страницу", () -> {
             open("https://www.google.com");
         });
-//         step("Открываем страницу с репозиторием", () -> {
-//             $x("//*[contains(@class, 'header-search-input')]").click();
-//             $x("//*[contains(@class, 'header-search-input')]").sendKeys("eroshenkoam/allure-example");
-//             $x("//*[contains(@class, 'header-search-input')]").submit();
-//             $x("//a[@href='/eroshenkoam/allure-example']").click();
-//         });
-//         step("Открываем страницу с задачами в репозитории", () -> {
-//             $x("//a[contains(@data-selected-links, 'repo_issues')]").click();
-//         });
-//         step("Проверяем title", () -> {
-//             $x("//a[@id='issue_12_link']").click();
-//             $x("//h1[contains(@class, 'gh-header-title')]").should(Condition.text("Hello, World!"));
-//         });
-
     }
 
     @AfterEach

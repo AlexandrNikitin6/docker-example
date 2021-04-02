@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "alex-dev",
+    "children" : [ {
+      "name" : "47019@alex-dev.Test worker(14)",
+      "children" : [ {
+        "name" : "Открываем существующую Issue",
+        "uid" : "d0b46db61e147ae3",
+        "parentUid" : "d7c25f7c9c791c5f1526fbfdd5a24019",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617346966787,
+          "stop" : 1617346969601,
+          "duration" : 2814
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d7c25f7c9c791c5f1526fbfdd5a24019"
+    } ],
+    "uid" : "23c4635ce47c27980e84ce9b885b7642"
+  } ]
+}
