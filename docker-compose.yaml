@@ -29,4 +29,12 @@ services:
       - "${PWD}/work/jira:/var/atlassian/application-data/jira"
     ports:
       - "9999:8080"
-    network_mode: bridge
+    networks:
+      - test-network
+
+networks: # Виртуальная сеть для объединения контейнеров
+  test-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 192.22.1.0/24
